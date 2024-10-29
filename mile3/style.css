@@ -1,0 +1,118 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('https://th.bing.com/th/id/R.e688140bb327855b605a41d6d03f49b5?rik=HHjeW9EfS0zfhw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f2%2fd%2fa%2f11003.jpg&ehk=kqLL53QrIPhDaAu1XDuVSw%2bZtwcF08mYo1OIuY%2fZPWw%3d&risl=&pid=ImgRaw&r=0');
+  margin: 0;
+  
+  width: 100%; /* Updated to cover full width */
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  background-size: cover;
+  min-height: 100vh; /* Ensure body takes full height */
+}
+
+h1 {
+  text-align: center;
+  color: rgb(246, 225, 225);
+  
+  font-size: 36px; /* Corrected the syntax for font size */
+  letter-spacing: 2px;
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+h1:hover {
+  color: chocolate;
+}
+h1:active {
+  transform: scale(0.98);
+}
+
+form {
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  width: 80%; /* Updated width to 80% */
+  max-width: 900px; /* Optional max-width for larger screens */
+  margin: 20px auto; /* Added margin for better spacing */
+  
+  background: rgba(255, 255, 255, 0.8); /* Slight background color for readability */
+}
+
+fieldset {
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left; /* Changed to left-align labels */
+  padding: 40px;
+  background-color: rgba(253, 255, 245, 0.85); /* Improved background color */
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(12, 12, 12, 0.192);
+}
+
+legend {
+  font-size: 28px;
+  color: #333;
+  font: bold 30px Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+legend:hover {
+  color: chocolate;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="file"],
+input[type="number"],
+textarea {
+  width: calc(100% - 24px); /* Adjusted to fit inside the form */
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: border 0.3s ease;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+input[type="file"]:focus {
+  outline: #ced5de;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background: linear-gradient(135deg, #ef4f05, #00c6ff);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.4s, transform 0.2s;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0056c1, #0093e9);
+  transform: scale(1.02);
+}
+
+button:active {
+  transform: scale(0.98);
+  background: linear-gradient(135deg, #0d305b, #0093e9);
+}
